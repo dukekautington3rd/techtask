@@ -1,8 +1,8 @@
 # techtask
 The purpose of this code is to demostrate building a container stack that provides a front-end reverse proxy server and a backend web server.
-credentials are required to access the content on the web server and are configureable in `docker-compose.yml` at build time.
+ Credentials are required to access the content on the web server and are configureable in `docker-compose.yml` at build time.
 
-The docker compose is instructed to build the containers at execution so it should take minimal steps to get up and running.
+The docker compose file is instructed to build the containers at "up" so it should take minimal steps to get up and running.
 
 All you should need is
 ```
